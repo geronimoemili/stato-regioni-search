@@ -1,1 +1,18 @@
-{"name": "stato-regioni-search","version": "1.0.0","description": "Scraper for Stato Regioni data","main": "scrape.js","scripts": {"start": "node scrape.js"},"keywords": [],"author": "","license": "ISC","dependencies": {"@supabase/supabase-js": "^2.38.0"}}
+{
+  "name": "stato-regioni-search",
+  "version": "1.0.0",
+  "description": "Scraper for Stato Regioni data",
+  "main": "scrape.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scrape.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.0",
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0"
+  }
+}
